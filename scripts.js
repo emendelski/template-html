@@ -1,9 +1,9 @@
 // Insert HTML
 var wrapit = async function wrapit(wrapper) {
   const { html } = wrapper.dataset;
-  const { href } = location;
+  const { origin } = location;
 
-  wrapper.innerHTML = await (await fetch(`${href}${html}.html`)).text();
+  wrapper.innerHTML = await (await fetch(`${origin}/texts/${html}.html`)).text();
 };
 
 if (document.querySelectorAll('[data-html]')) {
