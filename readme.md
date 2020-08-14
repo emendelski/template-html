@@ -12,5 +12,6 @@ http://reset.frontlabs.pl
 * [Bootstrap 4.5.2](variants/bootstrap-4.5.2.html)
 * [Bootstrap 5.0a1](variants/bootstrap-5.0a1.html)
 * [Bulma](variants/bulma.html)
+* [Tailwind](variants/tailwindcss.html)
 
 If not set explicitly, _latest_ version is used.
